@@ -113,6 +113,12 @@ AddOutputFilter chunkFilter
 		<Item Name="Autonomous" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 		</Item>
+		<Item Name="CTL Files" Type="Folder">
+			<Item Name="Controllers.ctl" Type="VI" URL="../Controllers.ctl"/>
+			<Item Name="DriveMotors.ctl" Type="VI" URL="../DriveMotors.ctl"/>
+			<Item Name="Extra Motors.ctl" Type="VI" URL="../Extra Motors.ctl"/>
+			<Item Name="SwerveMotors.ctl" Type="VI" URL="../SwerveMotors.ctl"/>
+		</Item>
 		<Item Name="Drive" Type="Folder"/>
 		<Item Name="Main" Type="Folder">
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
@@ -130,10 +136,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Vision" Type="Folder">
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="Controllers.ctl" Type="VI" URL="../Controllers.ctl"/>
-		<Item Name="DriveMotors.ctl" Type="VI" URL="../DriveMotors.ctl"/>
-		<Item Name="Extra Motors.ctl" Type="VI" URL="../Extra Motors.ctl"/>
-		<Item Name="SwerveMotors.ctl" Type="VI" URL="../SwerveMotors.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
